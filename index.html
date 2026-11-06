@@ -3,19 +3,24 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>QueeKings Diwali Special Offers — Rule Your Style | Unisex Salon, Electronic City Bengaluru</title>
-  <meta name="description" content="Diwali Special Offers at QueeKings Professional Unisex Salon, Electronic City Phase 1, Bengaluru. Six royal packages for women & men — hair, skin, nails and grooming. Limited period. Book on WhatsApp today." />
+  <title>QueeKings - Diwali Salon Offers in Electronic City, Bengaluru</title>
+  <meta name="description" content="QueeKings Diwali salon packages for women and men in Electronic City Phase 1, Bengaluru. Explore threading, facials, waxing and grooming. Book on WhatsApp." />
   <meta name="theme-color" content="#0a0907" />
   <link rel="canonical" href="https://queekings.com/" />
   <link rel="icon" type="image/png" href="assets/favicon.png" />
   <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
 
   <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
   <meta property="og:url" content="https://queekings.com/" />
-  <meta property="og:title" content="QueeKings — Diwali Special Offers · Rule Your Style" />
-  <meta property="og:description" content="Six royal Diwali packages for women & men. Limited period. Salon · Hair · Nails · Bridal. Electronic City Phase 1, Bengaluru." />
+  <meta property="og:title" content="QueeKings - Diwali Salon Offers in Electronic City, Bengaluru" />
+  <meta property="og:description" content="QueeKings Diwali salon packages for women and men in Electronic City Phase 1, Bengaluru. Explore threading, facials, waxing and grooming. Book on WhatsApp." />
   <meta property="og:image" content="https://queekings.com/assets/og-image.jpg" />
+  <meta property="og:image:alt" content="QueeKings Professional Unisex Salon Diwali offers" />
   <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Diwali Salon Offers in Electronic City, Bengaluru | QueeKings" />
+  <meta name="twitter:description" content="QueeKings Diwali salon packages for women and men in Electronic City Phase 1, Bengaluru. Explore threading, facials, waxing and grooming. Book on WhatsApp." />
+  <meta name="twitter:image" content="https://queekings.com/assets/og-image.jpg" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -61,6 +66,7 @@
       --sand-1: #f1e8d4;
       --sand-2: #e8dfca;
       --sand-3: #cbbd9e;
+      --wine: #762b43;
       --flame: #d9381e;
       --gold-1: #fff4c9;
       --gold-2: #f3d47a;
@@ -226,15 +232,16 @@
 
     .limited {
       display: inline-flex; align-items: center; gap: 12px; margin: 30px 0 0; padding: 12px 26px;
-      border: 1px solid var(--line); border-radius: 999px; background: rgba(18,15,11,.6); backdrop-filter: blur(6px);
+      border: 1px solid rgba(118,43,67,.72); border-radius: 999px;
+      background: linear-gradient(120deg, rgba(89,29,49,.72), rgba(18,15,11,.82)); backdrop-filter: blur(6px);
       font-size: 11px; letter-spacing: .34em; text-transform: uppercase; color: var(--gold-2);
     }
     .limited::before {
       content: ""; width: 8px; height: 8px; border-radius: 50%; flex: none;
-      background: radial-gradient(circle at 35% 35%, #ffb199, var(--flame) 60%);
-      box-shadow: 0 0 0 0 rgba(217,56,30,.5); animation: pingFire 2s infinite;
+      background: radial-gradient(circle at 35% 35%, #f6c2c7, var(--wine) 70%);
+      box-shadow: 0 0 0 0 rgba(118,43,67,.58); animation: pingFire 2s infinite;
     }
-    @keyframes pingFire { 0% { box-shadow: 0 0 0 0 rgba(217,56,30,.5); } 70%,100% { box-shadow: 0 0 0 10px rgba(217,56,30,0); } }
+    @keyframes pingFire { 0% { box-shadow: 0 0 0 0 rgba(118,43,67,.58); } 70%,100% { box-shadow: 0 0 0 10px rgba(118,43,67,0); } }
 
     /* Diyas */
     .diyas { display: flex; justify-content: center; align-items: flex-end; gap: clamp(26px, 6vw, 64px); margin: 44px 0 0; }
